@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+- '11'
+- '10'
+- '9'
+before_install:
+- npm install -g npm codecov greenkeeper-lockfile@1
+before_script: greenkeeper-lockfile-update
+after_script: greenkeeper-lockfile-upload
+before_deploy:
+- npm-prepublish --verbose --lax
+deploy:
+  provider: npm
+  email: alanlu1023@gmail.com
+  api_key: $NPM_TOKEN
+  on:
+    all_branches: true
+    tags: true
+    node: '10'
+    repo: gnosis/pm-contracts
