@@ -152,7 +152,7 @@ If you have any questions or are interested in collaboration, please do not hesi
 
 Feel free to reach out or connect:
 
-- [Telegram](https://t.me/solzarr)
+- [Telegram](https://t.me/0xmarcus0401)
 - [X (Twitter)](https://twitter.com/solzarr)
 
 ---
