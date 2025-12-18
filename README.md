@@ -1,5 +1,3 @@
-Certainly! Here's a complete sample README with placeholders for your Telegram and X (Twitter) links. When users click these links, they'll be directed to connect with you directly on those platforms:
-
 ---
 
 # EVM Prediction Market Contracts
